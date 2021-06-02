@@ -1,0 +1,154 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*style*/
+
+body {
+	color: #333;
+	background-image: url(img/webb.png);
+}
+
+
+/*Header*/
+.container {
+	width: 800px;
+	margin: auto;
+	background-color: #fff;
+
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.header img {
+	width: 70px;
+	float: right;
+	margin-top: 5px;
+}
+
+.header .title {
+	font-family: gang of three;
+	color: rgb(60, 179, 113);
+	font-size: 40px;
+	font-weight: bold;	
+}
+
+
+
+.header ul li {
+	display: inline-block;
+	margin-top: : 20px;
+	margin-right: 10px;
+	font-family: futura bold;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding-right: 3px;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;  
+}
+
+/*Main*/
+.main {
+	height: 280px;
+	background-image: url(img/main.png);
+	background-size: cover;
+	background-position: 0 -97px;
+	border-top: 5px solid rgb(60, 179, 113);
+	border-bottom: 5px solid salmon;
+}
+
+.content {
+	
+	padding: 20px;
+}
+
+.content h2 {
+	font-family: futura;
+	color: rgb(60, 179, 113);
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.content .made {
+	font-family: futura;
+	font-size: 13px;
+	margin-top: 2px;
+	margin-bottom: 10px;
+}
+
+.content .made a {
+	color: salmon;
+	text-decoration: none;
+}
+
+.content p {
+	font-family: lucida;
+	margin-bottom: 20px;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.footer {
+	background-color: rgb(60, 179, 113);
+	padding: 10px;
+}
+
+.footer .copy {
+	font-family: arial;
+	color: black ;
+	text-align: center;
+	font-size: 12px
